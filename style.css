@@ -1,0 +1,102 @@
+/* Common */
+.clearFix:after {
+	content: '';
+    display: table;
+    clear: both;
+} 
+.clearFix {
+	*zoom: 1;
+}
+.pa {
+	position: absolute;
+}
+.pr {
+	position: relative;
+}
+
+/* Slider Box H */
+.slider {
+	height: 100px;
+	overflow: hidden;
+	width: 400px;
+}
+.slider ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.h-slider-content-ul {
+	height: 100px;
+	left: 0;
+	width: 2000px;
+}
+.v-slider-content-ul {
+	height: 500px;
+	left: 0;
+	width: 400px;
+}
+
+.slider-content-li {
+	height: 100px;
+	width: 400px;
+}
+.h-slider-content-ul .item0 {
+	left: 0;
+}
+.h-slider-content-ul .item1  {
+	left: 400px;
+}
+.h-slider-content-ul .item2  {
+	left: 800px;
+}
+.h-slider-content-ul .item3  {
+	left: 1200px;
+}
+.h-slider-content-ul .item4  {
+	left: 1600px;
+}
+
+.slider-point-ul {
+	bottom: 5px;
+	height: 20px;
+	right: 0;
+	width: 125px;
+}
+.slider-point-li {
+	background: rgba(0, 0, 0, .6);
+	color: #fff;
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	width: 20px;
+}
+.slider-point-li:first-child {
+	background: rgba(256, 0, 0, .6);
+}
+
+#vSlider {
+	margin-top: 10px;
+}
+
+#hSlider .item0,
+#vSlider .item0 {
+	background: rgb(114, 183, 191);
+}
+#hSlider .item1,
+#vSlider .item1  {
+	background: rgb(191, 114, 163);
+}
+#hSlider .item2,
+#vSlider .item2  {
+	background: rgb(114, 191, 136);
+}
+#hSlider .item3,
+#vSlider .item3  {
+	background: rgb(114, 128, 191);
+}
+#hSlider .item4,
+#vSlider .item4  {
+	background: rgb(191, 154, 114);
+}
